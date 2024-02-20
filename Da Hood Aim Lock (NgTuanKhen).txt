@@ -1,7 +1,7 @@
-local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro/main/ui"))()
-NotifyLib.prompt('EPL', 'Loading..', 3)
-NotifyLib.prompt('EPL', 'Loaded!', 10)
-NotifyLib.prompt('EPL', ' Vào Ăn Tao👈', 3)
+cal NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro/main/ui"))()
+NotifyLib.prompt('Exp', 'Loading..', 3)
+NotifyLib.prompt('Exp', 'Loaded!', 10)
+NotifyLib.prompt('Exp', ' Vào Ăn Tao👈', 3)
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/Ido1212/Mr.Beast.ccV2/main/CLASHROYALE.COM"))()
 local Window = Library.CreateLib("ExoRoblox DaHood", colors)
@@ -133,7 +133,7 @@ end
                 if _G.NOTIF == true then
                     Plr = getClosestPlayerToCursor()
                 game.StarterGui:SetCore("SendNotification", {
-                    Title = "EPL";
+                    Title = "ExpRoblox";
                     Text = "Unlocked",
                     Duration = 3
                 })
@@ -150,7 +150,7 @@ end
                 if _G.NOTIF == true then
  
                     game.StarterGui:SetCore("SendNotification", {
-                        Title = "EPL";
+                        Title = "ExpRoblox";
                         Text = ""..tostring(Plr.Character.Humanoid.DisplayName),
                         Duration = 3
                     })
